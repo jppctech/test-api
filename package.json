@@ -10,11 +10,20 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "drizzle-kit": "^0.29.1",
+    "tsx": "^4.19.2",
     "typescript": "^5.2.2",
     "vitest": "^1.5.0"
   },
   "dependencies": {
-    "encore.dev": "^1.41.4"
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@types/ws": "^8.5.13",
+    "@xata.io/client": "^0.0.0-next.va121e4207b94bfe0a3c025fc00b247b923880930",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.37.0",
+    "encore.dev": "^1.41.4",
+    "postgres": "^3.4.5",
+    "ws": "^8.18.0"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.13.0"

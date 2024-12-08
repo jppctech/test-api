@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Jay-Prakash-s-workspace-n68fe1.us-east-1.xata.sh/db/encore",
+  "codegen": {
+    "output": "db/xata.ts"
+  }
+}

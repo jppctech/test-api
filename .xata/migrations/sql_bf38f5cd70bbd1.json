@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_bf38f5cd70bbd1",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE IF NOT EXISTS users (id text PRIMARY KEY NOT NULL, name text, age text)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_bf38f5cd70bbd1",
+  "parent": "mig_ctalaefq6ugj6kq3s8d0",
+  "schema": "public",
+  "startedAt": "2024-12-08T08:13:55.409775Z"
+}

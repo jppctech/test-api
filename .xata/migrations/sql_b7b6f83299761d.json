@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_b7b6f83299761d",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE IF NOT EXISTS messages (id text PRIMARY KEY NOT NULL, username text, content text, \"timestamp\" timestamp, room text)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_b7b6f83299761d",
+  "parent": "sql_bf38f5cd70bbd1",
+  "schema": "public",
+  "startedAt": "2024-12-08T08:35:03.662875Z"
+}

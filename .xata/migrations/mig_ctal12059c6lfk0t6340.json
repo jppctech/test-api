@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_ctal12059c6lfk0t6340",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE SCHEMA \"bb_00000000000000000000000000_000000\";"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_ctal12059c6lfk0t6340",
+  "schema": "public",
+  "startedAt": "2024-12-08T07:53:44.54541Z"
+}

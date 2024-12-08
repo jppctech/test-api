@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_d82047988cf1f3",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE IF NOT EXISTS users (id int PRIMARY KEY GENERATED ALWAYS AS IDENTITY (SEQUENCE NAME users_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 ), name varchar(255) NOT NULL, age int NOT NULL, email varchar(255) NOT NULL, CONSTRAINT users_email_unique UNIQUE (email))"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_d82047988cf1f3",
+  "parent": "mig_ctal12059c6lfk0t6340",
+  "schema": "public",
+  "startedAt": "2024-12-08T07:59:46.718898Z"
+}
